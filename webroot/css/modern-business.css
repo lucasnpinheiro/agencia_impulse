@@ -1,0 +1,309 @@
+/* 
+Custom CSS for...
+'Modern Business' HTML Theme by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* Global Styles */
+
+html, body {
+    height:100%;
+}
+
+body {
+    padding-top: 50px; /* body padding for fixed top nav */
+}
+
+.img-home-portfolio,
+.img-customer,
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.tab-pane {
+    margin-top: 15px;
+}
+
+/* Page Sections */
+.section,
+.section-colored {
+    padding: 50px 0;
+}
+
+.section-colored {
+    background-color: #e1e1e1; /* change this to change the background color of a colored section */
+}
+
+.sidebar {
+    margin-top: 40px;
+}
+
+.sidebar ul {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+/* 404 Page Styles */
+.error-404 {
+    font-size: 8em;
+}
+
+/* Pricing Page Styles */
+.price {
+    font-size: 4em;
+}
+
+.price-cents {
+    vertical-align: super;
+    font-size: 50%;
+}
+
+.price-month {
+    font-size: 35%;
+    font-style: italic;
+}
+
+/* Footer Styles */
+footer {
+    margin: 50px 0;
+}
+.carousel{
+    background-image: url(../img/fundo_banner.png);
+    height: 400px;
+}
+.carousel-control{
+    color: #fff;
+    opacity: 1;
+    font-family: myriadpro;
+}
+
+.carousel-control:hover, .carousel-control:focus {
+    color: #3d96d8;
+    text-decoration: none;
+    opacity: .9;
+    filter: alpha(opacity=90);
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px){
+    .carousel-control .icon-prev, .carousel-control .icon-next {
+        width: 30px;
+        height: 100px;
+        margin-top: -125px;
+        margin-left: -15px;
+        font-size: 150px;
+        font-family: myriadpro;
+    }
+    .carousel-indicators {
+        bottom: -15px;
+    }
+    .carousel-caption {
+        right: 20%;
+        left: 20%;
+        padding-bottom: 0;
+    }
+}
+
+.carousel-caption {
+    bottom: 5px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    left: 99%;
+    z-index: 15;
+    width: auto;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: inherit;
+    list-style: none;
+}
+
+.topo-navbar.navbar-nav>li>a{
+    font-family: 'myriadpro';
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 21px;
+    font-size: 0.6em;
+}
+.topo-navbar.navbar-nav>li>a:hover, .topo-navbar.navbar-nav>li>a:focus{
+    background-image: url('../img/alvo_impulse_mini.png');
+    background-repeat: no-repeat;
+    background-position: 2px 9px;
+    background-color: transparent;
+}
+.rodape-navbar.navbar-nav>li>a{
+    font-family: 'myriadprobc';
+    color: #8f8f8f;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1em;
+    padding-left: 0px;
+    padding-top: 5px;
+}
+.rodape-navbar.navbar-nav>li>a:hover, .topo-navbar.navbar-nav>li>a:focus{
+    background-color: transparent;
+}
+
+@font-face {
+    font-family: 'myriadpro';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype'), url('../fonts/MyriadPro-Regular.svg#vag') format('svg');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myriadprobc';
+    src: url('../fonts/MyriadPro-BoldCond.eot');
+    src: url('../fonts/MyriadPro-BoldCond.eot?#iefix') format('embedded-opentype'), url('../fonts/MyriadPro-BoldCond.woff') format('woff'), url('../fonts/MyriadPro-BoldCond.ttf') format('truetype'), url('../fonts/MyriadPro-BoldCond.svg#vag') format('svg');
+    font-style: normal;
+}
+
+.myriadprobc {
+    font-family: myriadprobc;
+}
+
+body {
+    padding-top: 118px;
+    background-color: #efefef;
+    font-family: myriadpro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.navbar-inverse{
+    background-color: #5193C3;
+    background-image: url(../img/fundo_azul_repete_topo.png);
+    background-repeat:repeat;
+    border: 0;
+    filter: 0;
+}
+
+.navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: -15px;
+    margin-top: 33px;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+.navbar-collapse .navbar-nav.navbar-right:last-child a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.social{
+    width: 215px;
+    height: 39px;
+    position: absolute;
+    right: 0px;
+    float: right;
+    top: 102px;
+}
+.social_hover{
+    background-image: url(../img/redes.png);
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 32px;
+    display: block;
+    float: left;
+}
+.social_hover:hover{
+    background-image: url(../img/redes_over.png);
+}
+.social_hover.digg{
+    background-position: 0px 0px;
+}
+.social_hover.facebook{
+    background-position: -38px 0px;
+}
+.social_hover.flickr{
+    background-position: -80px 0px;
+}
+.social_hover.rss{
+    background-position: -119px 0px;
+}
+.social_hover.twitter{
+    background-position: -157px 0px;
+}
+.footer{
+    background-color: #ccc;
+}
+@media (min-width: 1200px), (min-width: 992px), (min-width: 768px){ 
+    .container{
+        max-width: 100%;
+    }
+}
+@media (min-width: 768px){ 
+    .rodape-navbar.navbar-right {
+        float: left!important;
+    }
+}
+
+.alert {
+    padding: 3px 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 9999;
+    left: 25%;
+    top: 10px;
+}
+
+
+.conteudo_data{padding-top: 10px; display: inline-block; font-family: myriadpro; color: #7f7f7f; font-size: 0.85em;}
+.conteudo_h1{margin-top: 5px; font-family: myriadprobc; color: #3d96d8; font-size: 2.2em;}
+.conteudo_texto{font-size: 1em; font-family: myriadpro}
+.conteudo_link{font-family: myriadpro; background: #3d96d8; padding: 5px; color: #fff; display: block; text-decoration: none; margin-bottom: 15px; border-bottom: 3px solid #2073b3; border-top: 2px solid #3d96d8;}
+.conteudo_link:hover{background: #3d96d8;color: #fff;text-decoration: none; border-top: 3px solid #2073b3; border-bottom: 2px solid #3d96d8;}
+.conteudo_caixa{border-bottom: 1px solid #e7e7e7; margin-bottom: 10px; margin-top: 0px;}
+.conteudo_bloco{background: #fff; margin-top: 20px; padding: 10px; border-radius: 5px; -webkit-border-radius: 5px; -moz-box-shadow: 0 0 10px #d7d7d7; -webkit-box-shadow: 0 0 10px #d7d7d7; box-shadow: 0 0 10px #d7d7d7;}
+.conteudo_sidebar{border: 0px solid #ccc; min-height: 400px; margin-top: 20px; padding-left: 25px;}
+.conteudo_sidebar h1{font-family: myriadprobc; color: #3d96d8; font-size:  2.2em;}
+.conteudo_sidebar input{border: 0px; width: 240px; border-radius: 5px; -webkit-border-radius: 5px;}
+.conteudo_sidebar p{font-size: 1em; font-family: myriadpro; margin: 0px;}
+
+.carousel-indicators li {
+    border: 1px solid #4F91C1;
+}
+.carousel-indicators li.active {
+    background-color: #4F91C1;
+}
+
+.depoimentos {
+    margin: 25px;
+}
+.depoimentos .depoimentos_linha {
+    padding: 5px;
+    border-bottom: 1px #ccc dotted;
+}
+.depoimentos .depoimentos_linha .depoimentos_linha_usuario{
+    display: block;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.depoimentos .depoimentos_linha .depoimentos_linha_conteudo{
+    display: block;
+    padding-left: 5px;
+}
+.btn{
+    text-decoration: none;
+}
