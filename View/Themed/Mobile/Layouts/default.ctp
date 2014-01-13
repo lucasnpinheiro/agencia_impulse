@@ -9,8 +9,6 @@
         <!-- Bootstrap core CSS -->
         <?php
         echo $this->fetch('meta_tag');
-        echo $this->Html->meta('/css/bootstrap.min.css');
-        echo $this->Html->css('/css/bootstrap.min.css');
         echo $this->Html->css('/css/bootstrap-theme.min.css');
         echo $this->Html->css('/css/modern-business.css');
         echo $this->Html->css('/font-awesome/css/font-awesome.min.css');
