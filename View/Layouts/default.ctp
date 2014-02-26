@@ -97,7 +97,7 @@
             <footer>
                 <div class="row">
                     <div class="col-xs-12" style="max-width: 1000px; margin: 0 auto;">
-                        <div class="col-xs-6">
+                        <div class="col-xs-4">
                             <div style="float: left; margin-top: 58px;">
                                 <?php echo $this->Html->image('/img/icone_endereco.png', array('style' => 'margin-top: -100px;', 'url' => '/contato')); ?>
                             </div>
@@ -107,6 +107,10 @@
                                 CEP 14096-580 <br />
                                 Fone (16) 3877-1069<br />
                             </div>
+                        </div>
+
+                        <div class="col-xs-2" style="text-align: center; margin: auto;">
+                            <?php echo $this->Html->image('/img/abradiisqp.png', array('style' => 'width: 100%;')); ?>
                         </div>
 
                         <div class="col-xs-6" style="text-align: right; margin-top: -30px;">

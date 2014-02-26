@@ -102,6 +102,9 @@
                     Rua Otto Benz, 795 sala 24 - Nova Riberânia<br />
                     Ribeirão Preto - SP - CEP 14096-580 - Fone (16) 3877-1069 <br />
                 </div>
+                <div class="col-xs-12" style="text-align: center; margin: auto;">
+                    <?php echo $this->Html->image('/img/abradiisqp.png', array('style' => 'max-width: 100px;')); ?>
+                </div>
                 <div class="col-xs-12">
                     <h3 class="myriadprobc" style="color: #3d96d8; font-size: 1.6em;">Cadastre-se e Receba Novidades</h3>
                     <?php
