@@ -110,7 +110,7 @@
                         </div>
 
                         <div class="col-xs-2" style="text-align: center; margin: auto;">
-                            <?php echo $this->Html->image('/img/abradiisqp.png', array('style' => 'width: 100%;')); ?>
+                            <?php echo $this->Html->image('/img/abradiisqp.png', array('style' => 'width: 100%;', 'url' => 'http://acopadi.com.br/')); ?>
                         </div>
 
                         <div class="col-xs-6" style="text-align: right; margin-top: -30px;">
